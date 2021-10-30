@@ -3,7 +3,7 @@ This application will allow users to generate a random password. Offers users a 
 
 The reset function will clear the display box and ready it for the next new password so that the user doesn't have to refresh the page to generate a new password.
 
-![screenshot of application](./develop/screenshot.png)
+![screenshot of application](./screenshot.png)
 
 
 ## User Story
