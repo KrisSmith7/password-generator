@@ -2,12 +2,20 @@
 //global variables
 //arrays for the character options in password
 var uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-var lowercase = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
-var number = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"]
-var special = ["!", "@", "#", "$", "&", "<", ">","?"]
+var lowercase = "abcdefghijklmnopqrstuvwxyz"
+var number = "1234567890"
+var special = "!@#$%&<>?"
+
 //placeholders for text values
 var addCharacters = ""
 var randomPassword = ""
+
+var reset = function () {
+  randomPassword = "";
+  addCharacters = "";
+  console.log("Password: " + randomPassword, "addCharacters: " + addCharacters);
+}
+
 //functions to confirm types of characters to use
 var criteria = function () {
   cUppercase = window.confirm("Would you like to use uppercase characters?");
@@ -78,6 +86,7 @@ var generatePassword = function () {
   
   // Write password to the #password input
   function writePassword() {
+    reset();
     var password = generatePassword();
     var passwordText = document.querySelector("#password");
     
