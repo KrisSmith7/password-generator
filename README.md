@@ -1,4 +1,9 @@
 # Password Generator Starter Code
+This application will allow users to generate a random password. Offers users a choice of uppercase characters, lowercase characters, special characters and/or numbers and will allow them to choose a length between 8-128 characters. 
+
+The reset function will clear the display box and ready it for the next new password so that the user doesn't have to refresh the page to generate a new password.
+
+![screenshot of application](./develop/screenshot.png)
 
 
 ## User Story
