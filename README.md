@@ -5,6 +5,8 @@ The reset function will clear the display box and ready it for the next new pass
 
 ![screenshot of application](./screenshot.png)
 
+Link to deployed app -
+https://krissmith7.github.io/password-generator/
 
 ## User Story
 
